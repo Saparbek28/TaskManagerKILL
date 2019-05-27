@@ -1,0 +1,14 @@
+﻿<Window x:Class="TaskManagerWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskManagerWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid Name="TaskManager" Margin="10,14,10,99"></DataGrid>
+        <Button Name="Kill" Content="Kill the Task Manager" HorizontalAlignment="Left" Height="51" Margin="284,348,0,0" VerticalAlignment="Top" Width="189" Click="TaskProcess_Click"/>
+
+    </Grid>
+</Window>
